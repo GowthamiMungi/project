@@ -9,7 +9,7 @@ function QuizHistory() {
   const [quizHistory, setQuizHistory] = useState([
     {
       id: 1,
-      title: 'Quiz 1: HTML Basics',
+      title: 'Quiz 1: HTML',
       score: '8/10',
       questions: 10,
       difficulty: 'Easy',
@@ -17,11 +17,19 @@ function QuizHistory() {
     },
     {
       id: 2,
-      title: 'Quiz 2: CSS Styling',
+      title: 'Quiz 2: Linux',
       score: '9/10',
       questions: 15,
       difficulty: 'Medium',
       date: 'February 5, 2023',
+    },
+    {
+      id: 2,
+      title: 'Quiz 3: SQL',
+      score: '12/20',
+      questions: 20,
+      difficulty: 'Hard',
+      date: 'February 20, 2023',
     },
     // Add more quiz history data as needed
   ]);
